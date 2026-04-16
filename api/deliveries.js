@@ -61,22 +61,3 @@ export default function handler(req, res) {
         data: results
     });
 }
-```
-
-### 3. Cara Deploy ke Vercel
-
-Ada dua cara untuk mendeploy, tapi saya sarankan cara termudah yaitu menggunakan **Vercel CLI** langsung dari Terminal/Command Prompt laptop Abang.
-
-**Langkah-langkahnya:**
-1. Pastikan Abang sudah menginstal **Node.js** di komputer.
-2. Buka Terminal / Command Prompt, lalu instal Vercel CLI secara global dengan perintah:
-   ```bash
-   npm i - g vercel
-    ```
-3. Arahkan terminal ke dalam folder `enggang - api` yang tadi kita buat.
-   ```bash
-   cd path / to / enggang - api
-    ```
-4. Jalankan perintah deploy:
-   ```bash
-vercel
